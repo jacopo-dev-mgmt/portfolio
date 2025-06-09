@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const lastOverlay = document.querySelector('.overlay.delay-4');
+    const lastOverlay = document.querySelector('.overlay.delay-3');
     lastOverlay.addEventListener('animationend', () => {
         const text = document.querySelector('.typewriter');
         text.style.visibility = 'visible';
